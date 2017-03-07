@@ -1,15 +1,14 @@
 //
 //  MBProgressHUD+Meidong.h
-//  HGXmaket
+//  MDUtils
 //
 //  Created by 没懂 on 17/3/7.
 //  Copyright © 2017年 com.infomacro. All rights reserved.
 //
 
-#import <MBProgressHUD/MBProgressHUD.h>
+#import "MBProgressHUD.h"
 
 @interface MBProgressHUD (Meidong)
-
 + (void)showTipMessageInWindow:(NSString*)message;
 + (void)showTipMessageInView:(NSString*)message;
 + (void)showTipMessageInWindow:(NSString*)message timer:(int)aTimer;

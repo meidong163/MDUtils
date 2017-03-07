@@ -1,6 +1,6 @@
 //
 //  MBProgressHUD+Meidong.m
-//  HGXmaket
+//  MDUtils
 //
 //  Created by 没懂 on 17/3/7.
 //  Copyright © 2017年 com.infomacro. All rights reserved.
@@ -17,7 +17,7 @@
     hud.label.font=[UIFont systemFontOfSize:15];
     hud.removeFromSuperViewOnHide = YES;
     hud.dimBackground = NO;
-    
+
     return hud;
 }
 #pragma mark-------------------- show Tip----------------------------
