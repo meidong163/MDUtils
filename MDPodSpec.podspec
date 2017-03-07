@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MDPodSpec"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "自己一个小小的工具库，希望后面能越来越好"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "MD的工具库"                  
+  s.description  = "MD的工具库，目前只有一个对MBProgressHUD的封装，后面会把在实际项目中有用的库放进来，这样以后开发项目，上来先把这个库弄进来，很方便，哈哈"                  
 
   s.homepage     = "https://github.com/meidong163/MDUtils/tree/master/MDUtils/MDUtils/Utils"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MDUtils", "MDUtils/MDUtils/Utils/**/*.{h,m}"
+  s.source_files  = "MDUtils", "MDUtils/MDUtils/Utils/**/*.{h,m,bundle}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
