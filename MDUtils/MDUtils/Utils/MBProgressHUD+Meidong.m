@@ -17,9 +17,10 @@
     hud.label.font=[UIFont systemFontOfSize:15];
     hud.removeFromSuperViewOnHide = YES;
     hud.dimBackground = NO;
-
     return hud;
 }
+
+
 #pragma mark-------------------- show Tip----------------------------
 
 + (void)showTipMessageInWindow:(NSString*)message

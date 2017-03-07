@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MDPodSpec"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "自己一个小小的工具库，希望后面能越来越好"
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
 
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
-    s.platform = :ios,'5.0'
+    s.platform = :ios,'7.0'
     # s.osx.deployment_target = '10.7'
 
   #  When using multiple platforms
@@ -104,10 +104,10 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-
+    s.resource = "MDUtils/MDUtils/Utils/MBProgressHUD+JDragon.bundle"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-
+    
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
