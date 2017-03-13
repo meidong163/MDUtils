@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "MD的工具库，目前只有一个对MBProgressHUD的封装，后面会把在实际项目中有用的库放进来，这样以后开发项目，上来先把这个库弄进来，很方便，哈哈"                  
 
+  #   s.homepage     = "https://github.com/meidong163/MDUtils.git" 下一个版本需要加入的，该懂的东西
   s.homepage     = "https://github.com/meidong163/MDUtils/tree/master/MDUtils/MDUtils/Utils"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
