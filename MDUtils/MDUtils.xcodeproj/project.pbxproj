@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564BEE1F1E80C278003D6498 /* MDBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BEE1E1E80C278003D6498 /* MDBarButton.m */; };
+		564BEE231E80E3B1003D6498 /* MDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BEE221E80E3B1003D6498 /* MDTabBar.m */; };
+		564BEE2A1E8102EC003D6498 /* MDTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BEE291E8102EC003D6498 /* MDTabBarItem.m */; };
+		564BEE2D1E811508003D6498 /* MDTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BEE2C1E811508003D6498 /* MDTabBarButton.m */; };
+		564BEE301E812145003D6498 /* MDCustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BEE2F1E812144003D6498 /* MDCustomBadge.m */; };
+		564BEE3B1E813562003D6498 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 564BEE3A1E813562003D6498 /* UIView+Addition.m */; };
+		566980361E7A95A7007991CD /* MDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 566980351E7A95A7007991CD /* MDCache.m */; };
+		568350521E7B6A3600016549 /* MDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 568350511E7B6A3600016549 /* MDImage.m */; };
+		568350541E7BE37200016549 /* help.txt in Resources */ = {isa = PBXBuildFile; fileRef = 568350531E7BE37200016549 /* help.txt */; };
 		569584F31E6E51720052766D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 569584F21E6E51720052766D /* main.m */; };
 		569584F61E6E51720052766D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 569584F51E6E51720052766D /* AppDelegate.m */; };
 		569584F91E6E51720052766D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569584F81E6E51720052766D /* ViewController.m */; };
@@ -14,11 +23,40 @@
 		569584FE1E6E51720052766D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569584FD1E6E51720052766D /* Assets.xcassets */; };
 		569585011E6E51720052766D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569584FF1E6E51720052766D /* LaunchScreen.storyboard */; };
 		5695854E1E6E992A0052766D /* MBProgressHUD+JDragon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5695854D1E6E992A0052766D /* MBProgressHUD+JDragon.bundle */; };
+		569A9B721E7F6D12007589C3 /* MDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B711E7F6D12007589C3 /* MDWindow.m */; };
+		569A9B751E7F737F007589C3 /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B741E7F737F007589C3 /* MDViewController.m */; };
+		569A9B7F1E7F8A54007589C3 /* MDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B7E1E7F8A54007589C3 /* MDView.m */; };
+		569A9B821E7F8DE1007589C3 /* MDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B811E7F8DE1007589C3 /* MDLog.m */; };
+		569A9B851E7F8E0F007589C3 /* MDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B841E7F8E0F007589C3 /* MDObject.m */; };
+		569A9B881E7FB81A007589C3 /* Pepole.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B871E7FB81A007589C3 /* Pepole.m */; };
+		569A9B8B1E7FB850007589C3 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B8A1E7FB850007589C3 /* Book.m */; };
+		569A9B8E1E7FBDC3007589C3 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B8D1E7FBDC3007589C3 /* NSObject+Property.m */; };
+		569A9B911E7FC9B1007589C3 /* MDItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B901E7FC9B1007589C3 /* MDItem.m */; };
+		569A9B941E7FCA8C007589C3 /* MDBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B931E7FCA8C007589C3 /* MDBarItem.m */; };
+		569A9B971E7FE147007589C3 /* MDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B961E7FE147007589C3 /* MDBarButtonItem.m */; };
 		56A5A5C31E6EAC3500F480AC /* MBProgressHUD+Meidong.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */; };
 		56A5A5C81E6EACB800F480AC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5A5C71E6EACB800F480AC /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		564BEE1D1E80C278003D6498 /* MDBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBarButton.h; sourceTree = "<group>"; };
+		564BEE1E1E80C278003D6498 /* MDBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBarButton.m; sourceTree = "<group>"; };
+		564BEE201E80DB1D003D6498 /* MDConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDConfig.h; sourceTree = "<group>"; };
+		564BEE211E80E3B1003D6498 /* MDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBar.h; sourceTree = "<group>"; };
+		564BEE221E80E3B1003D6498 /* MDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBar.m; sourceTree = "<group>"; };
+		564BEE281E8102EC003D6498 /* MDTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBarItem.h; sourceTree = "<group>"; };
+		564BEE291E8102EC003D6498 /* MDTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBarItem.m; sourceTree = "<group>"; };
+		564BEE2B1E811508003D6498 /* MDTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBarButton.h; sourceTree = "<group>"; };
+		564BEE2C1E811508003D6498 /* MDTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBarButton.m; sourceTree = "<group>"; };
+		564BEE2E1E812144003D6498 /* MDCustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCustomBadge.h; sourceTree = "<group>"; };
+		564BEE2F1E812144003D6498 /* MDCustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCustomBadge.m; sourceTree = "<group>"; };
+		564BEE391E813562003D6498 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		564BEE3A1E813562003D6498 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		566980341E7A95A7007991CD /* MDCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCache.h; sourceTree = "<group>"; };
+		566980351E7A95A7007991CD /* MDCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCache.m; sourceTree = "<group>"; };
+		568350501E7B6A3600016549 /* MDImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDImage.h; sourceTree = "<group>"; };
+		568350511E7B6A3600016549 /* MDImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDImage.m; sourceTree = "<group>"; };
+		568350531E7BE37200016549 /* help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = help.txt; sourceTree = "<group>"; };
 		569584EE1E6E51720052766D /* MDUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		569584F21E6E51720052766D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		569584F41E6E51720052766D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,6 +68,31 @@
 		569585001E6E51720052766D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		569585021E6E51720052766D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5695854D1E6E992A0052766D /* MBProgressHUD+JDragon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "MBProgressHUD+JDragon.bundle"; sourceTree = "<group>"; };
+		569A9B701E7F6D12007589C3 /* MDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDWindow.h; sourceTree = "<group>"; };
+		569A9B711E7F6D12007589C3 /* MDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDWindow.m; sourceTree = "<group>"; };
+		569A9B731E7F737F007589C3 /* MDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
+		569A9B741E7F737F007589C3 /* MDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
+		569A9B791E7F79BE007589C3 /* MDLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDLibrary.h; sourceTree = "<group>"; };
+		569A9B7A1E7F79E2007589C3 /* MDdefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDdefines.h; sourceTree = "<group>"; };
+		569A9B7B1E7F7B6C007589C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		569A9B7D1E7F8A54007589C3 /* MDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDView.h; sourceTree = "<group>"; };
+		569A9B7E1E7F8A54007589C3 /* MDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDView.m; sourceTree = "<group>"; };
+		569A9B801E7F8DE1007589C3 /* MDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDLog.h; sourceTree = "<group>"; };
+		569A9B811E7F8DE1007589C3 /* MDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLog.m; sourceTree = "<group>"; };
+		569A9B831E7F8E0F007589C3 /* MDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDObject.h; sourceTree = "<group>"; };
+		569A9B841E7F8E0F007589C3 /* MDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDObject.m; sourceTree = "<group>"; };
+		569A9B861E7FB81A007589C3 /* Pepole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pepole.h; sourceTree = "<group>"; };
+		569A9B871E7FB81A007589C3 /* Pepole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pepole.m; sourceTree = "<group>"; };
+		569A9B891E7FB850007589C3 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		569A9B8A1E7FB850007589C3 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		569A9B8C1E7FBDC3007589C3 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		569A9B8D1E7FBDC3007589C3 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		569A9B8F1E7FC9B1007589C3 /* MDItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDItem.h; sourceTree = "<group>"; };
+		569A9B901E7FC9B1007589C3 /* MDItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDItem.m; sourceTree = "<group>"; };
+		569A9B921E7FCA8C007589C3 /* MDBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBarItem.h; sourceTree = "<group>"; };
+		569A9B931E7FCA8C007589C3 /* MDBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBarItem.m; sourceTree = "<group>"; };
+		569A9B951E7FE147007589C3 /* MDBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBarButtonItem.h; sourceTree = "<group>"; };
+		569A9B961E7FE147007589C3 /* MDBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBarButtonItem.m; sourceTree = "<group>"; };
 		56A5A5C11E6EAC3500F480AC /* MBProgressHUD+Meidong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Meidong.h"; sourceTree = "<group>"; };
 		56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Meidong.m"; sourceTree = "<group>"; };
 		56A5A5C61E6EACB800F480AC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -47,6 +110,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		566980331E7A9590007991CD /* PerpareAddUtils */ = {
+			isa = PBXGroup;
+			children = (
+				566980341E7A95A7007991CD /* MDCache.h */,
+				566980351E7A95A7007991CD /* MDCache.m */,
+				568350501E7B6A3600016549 /* MDImage.h */,
+				568350511E7B6A3600016549 /* MDImage.m */,
+				568350531E7BE37200016549 /* help.txt */,
+			);
+			path = PerpareAddUtils;
+			sourceTree = "<group>";
+		};
 		569584E51E6E51720052766D = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +141,17 @@
 		569584F01E6E51720052766D /* MDUtils */ = {
 			isa = PBXGroup;
 			children = (
+				569A9B6F1E7F6CE4007589C3 /* MDPrepareLib */,
+				566980331E7A9590007991CD /* PerpareAddUtils */,
 				56A5A5C41E6EACB800F480AC /* lib */,
 				569585491E6E99120052766D /* Utils */,
 				569584F41E6E51720052766D /* AppDelegate.h */,
 				569584F51E6E51720052766D /* AppDelegate.m */,
+				569A9B861E7FB81A007589C3 /* Pepole.h */,
+				569A9B891E7FB850007589C3 /* Book.h */,
+				569A9B8A1E7FB850007589C3 /* Book.m */,
+				569A9B871E7FB81A007589C3 /* Pepole.m */,
+				569A9B7B1E7F7B6C007589C3 /* PrefixHeader.pch */,
 				569584F71E6E51720052766D /* ViewController.h */,
 				569584F81E6E51720052766D /* ViewController.m */,
 				569584FA1E6E51720052766D /* Main.storyboard */,
@@ -97,6 +179,46 @@
 				56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		569A9B6F1E7F6CE4007589C3 /* MDPrepareLib */ = {
+			isa = PBXGroup;
+			children = (
+				569A9B701E7F6D12007589C3 /* MDWindow.h */,
+				569A9B711E7F6D12007589C3 /* MDWindow.m */,
+				569A9B8F1E7FC9B1007589C3 /* MDItem.h */,
+				569A9B901E7FC9B1007589C3 /* MDItem.m */,
+				569A9B921E7FCA8C007589C3 /* MDBarItem.h */,
+				569A9B931E7FCA8C007589C3 /* MDBarItem.m */,
+				569A9B951E7FE147007589C3 /* MDBarButtonItem.h */,
+				569A9B961E7FE147007589C3 /* MDBarButtonItem.m */,
+				564BEE1D1E80C278003D6498 /* MDBarButton.h */,
+				564BEE1E1E80C278003D6498 /* MDBarButton.m */,
+				564BEE2E1E812144003D6498 /* MDCustomBadge.h */,
+				564BEE2F1E812144003D6498 /* MDCustomBadge.m */,
+				564BEE2B1E811508003D6498 /* MDTabBarButton.h */,
+				564BEE2C1E811508003D6498 /* MDTabBarButton.m */,
+				569A9B731E7F737F007589C3 /* MDViewController.h */,
+				569A9B741E7F737F007589C3 /* MDViewController.m */,
+				569A9B7D1E7F8A54007589C3 /* MDView.h */,
+				569A9B7E1E7F8A54007589C3 /* MDView.m */,
+				569A9B801E7F8DE1007589C3 /* MDLog.h */,
+				569A9B811E7F8DE1007589C3 /* MDLog.m */,
+				569A9B831E7F8E0F007589C3 /* MDObject.h */,
+				569A9B841E7F8E0F007589C3 /* MDObject.m */,
+				569A9B8C1E7FBDC3007589C3 /* NSObject+Property.h */,
+				569A9B8D1E7FBDC3007589C3 /* NSObject+Property.m */,
+				569A9B7A1E7F79E2007589C3 /* MDdefines.h */,
+				569A9B791E7F79BE007589C3 /* MDLibrary.h */,
+				564BEE201E80DB1D003D6498 /* MDConfig.h */,
+				564BEE211E80E3B1003D6498 /* MDTabBar.h */,
+				564BEE221E80E3B1003D6498 /* MDTabBar.m */,
+				564BEE281E8102EC003D6498 /* MDTabBarItem.h */,
+				564BEE291E8102EC003D6498 /* MDTabBarItem.m */,
+				564BEE391E813562003D6498 /* UIView+Addition.h */,
+				564BEE3A1E813562003D6498 /* UIView+Addition.m */,
+			);
+			path = MDPrepareLib;
 			sourceTree = "<group>";
 		};
 		56A5A5C41E6EACB800F480AC /* lib */ = {
@@ -177,6 +299,7 @@
 				5695854E1E6E992A0052766D /* MBProgressHUD+JDragon.bundle in Resources */,
 				569584FE1E6E51720052766D /* Assets.xcassets in Resources */,
 				569584FC1E6E51720052766D /* Main.storyboard in Resources */,
+				568350541E7BE37200016549 /* help.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,11 +310,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564BEE2D1E811508003D6498 /* MDTabBarButton.m in Sources */,
+				568350521E7B6A3600016549 /* MDImage.m in Sources */,
 				569584F91E6E51720052766D /* ViewController.m in Sources */,
 				56A5A5C31E6EAC3500F480AC /* MBProgressHUD+Meidong.m in Sources */,
+				569A9B911E7FC9B1007589C3 /* MDItem.m in Sources */,
 				56A5A5C81E6EACB800F480AC /* MBProgressHUD.m in Sources */,
 				569584F61E6E51720052766D /* AppDelegate.m in Sources */,
+				564BEE301E812145003D6498 /* MDCustomBadge.m in Sources */,
+				564BEE231E80E3B1003D6498 /* MDTabBar.m in Sources */,
+				569A9B851E7F8E0F007589C3 /* MDObject.m in Sources */,
+				569A9B881E7FB81A007589C3 /* Pepole.m in Sources */,
 				569584F31E6E51720052766D /* main.m in Sources */,
+				569A9B721E7F6D12007589C3 /* MDWindow.m in Sources */,
+				569A9B941E7FCA8C007589C3 /* MDBarItem.m in Sources */,
+				569A9B821E7F8DE1007589C3 /* MDLog.m in Sources */,
+				569A9B751E7F737F007589C3 /* MDViewController.m in Sources */,
+				566980361E7A95A7007991CD /* MDCache.m in Sources */,
+				569A9B8B1E7FB850007589C3 /* Book.m in Sources */,
+				564BEE1F1E80C278003D6498 /* MDBarButton.m in Sources */,
+				564BEE2A1E8102EC003D6498 /* MDTabBarItem.m in Sources */,
+				564BEE3B1E813562003D6498 /* UIView+Addition.m in Sources */,
+				569A9B971E7FE147007589C3 /* MDBarButtonItem.m in Sources */,
+				569A9B8E1E7FBDC3007589C3 /* NSObject+Property.m in Sources */,
+				569A9B7F1E7F8A54007589C3 /* MDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MDUtils/PrefixHeader.pch;
 				INFOPLIST_FILE = MDUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meidong.MDUtils;
@@ -314,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MDUtils/PrefixHeader.pch;
 				INFOPLIST_FILE = MDUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = meidong.MDUtils;
