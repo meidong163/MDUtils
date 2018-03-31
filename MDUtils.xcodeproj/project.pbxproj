@@ -455,8 +455,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infomacro.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ac9a0ea2-5716-4b8c-a300-97d632170438";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS push 0927";
+				PROVISIONING_PROFILE = "5c2f256e-2379-4722-bafb-d6090c2ddaef";
+				PROVISIONING_PROFILE_SPECIFIER = "ios-uat-1204";
 			};
 			name = Debug;
 		};
@@ -472,8 +472,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infomacro.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ac9a0ea2-5716-4b8c-a300-97d632170438";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS push 0927";
+				PROVISIONING_PROFILE = "5c2f256e-2379-4722-bafb-d6090c2ddaef";
+				PROVISIONING_PROFILE_SPECIFIER = "ios-uat-1204";
 			};
 			name = Release;
 		};
