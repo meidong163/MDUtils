@@ -269,6 +269,8 @@
 				TargetAttributes = {
 					569584ED1E6E51720052766D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2Q433KSXPF;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -445,11 +447,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2Q433KSXPF;
 				GCC_PREFIX_HEADER = MDUtils/PrefixHeader.pch;
 				INFOPLIST_FILE = MDUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = meidong.MDUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infomacro.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac9a0ea2-5716-4b8c-a300-97d632170438";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS push 0927";
 			};
 			name = Debug;
 		};
@@ -457,11 +464,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2Q433KSXPF;
 				GCC_PREFIX_HEADER = MDUtils/PrefixHeader.pch;
 				INFOPLIST_FILE = MDUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = meidong.MDUtils;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infomacro.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac9a0ea2-5716-4b8c-a300-97d632170438";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS push 0927";
 			};
 			name = Release;
 		};
