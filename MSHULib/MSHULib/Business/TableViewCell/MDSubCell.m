@@ -22,36 +22,21 @@
 @end
 
 @implementation MDSubCell
-
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
-}
-
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {// 移除父类的textFiled
-        UITextField *supersTextField = [self valueForKey:@"_textFeild"];// 若设计为公有属性，就可以直接访问到父类的变量，子类重写父类变量。
+    if (self) {// 移除父类的textFiled，一定要移除掉父类的 TextField，只是子类赋值给父类对象，不会去重新渲染
+        UITextField *supersTextField = [self valueForKey:@"_textFeild"];// 若设计为公有属性，就可以直接访问到父类的属性，子类重写父类属性。但需要手动@synthesize 不然访问默认父类对象
         if (supersTextField) {
             [supersTextField removeFromSuperview];
         }
-        // 子类新添加
+        // 子类新添加 MDTextField 为带有按钮的Textfield
         self.textField = [[MDTextField alloc]init];
-//        self.textField.backgroundColor = [UIColor grayColor];
         self.textField.borderStyle = UITextBorderStyleBezel;
         [self addSubview:self.textField];
-        // 重新布局 其他的也一并重新布局
         
+        // 重新布局 其他的也可一并重新布局
         UILabel *nameLabel = [self valueForKey:@"_nameLabel"];
-        UIImageView *imageView = [self valueForKey:@"_imageView"];
-        
         [nameLabel mas_updateConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(self.mas_left).offset(15);
         }];
