@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59111AA222851DBB005E724C /* MDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59111A9F22851DBB005E724C /* MDModel.m */; };
+		59111AA322851DBB005E724C /* MDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59111AA122851DBB005E724C /* MDTableViewCell.m */; };
+		59111AA622851FFD005E724C /* MDSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59111AA522851FFD005E724C /* MDSubCell.m */; };
 		5925C18F2275540400F46D37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5925C18E2275540400F46D37 /* AppDelegate.m */; };
 		5925C1952275540400F46D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5925C1932275540400F46D37 /* Main.storyboard */; };
 		5925C1972275540600F46D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5925C1962275540600F46D37 /* Assets.xcassets */; };
@@ -48,9 +51,19 @@
 		597E3132227FD4D1003691B8 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E310B227FD4D0003691B8 /* UIButton+AFNetworking.m */; };
 		597E3133227FD4D1003691B8 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E310C227FD4D0003691B8 /* UIActivityIndicatorView+AFNetworking.m */; };
 		597E3134227FD4D1003691B8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E310D227FD4D0003691B8 /* UIWebView+AFNetworking.m */; };
+		597E313722803A12003691B8 /* MDAFNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E313622803A12003691B8 /* MDAFNManager.m */; };
+		597E313C22803AA6003691B8 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 597E313B22803AA5003691B8 /* GTMBase64.m */; };
+		59CFA0AB22826FE2003014F8 /* MDEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFA0AA22826FE2003014F8 /* MDEncrypt.m */; };
+		59CFA0B22282B20E003014F8 /* MDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFA0B02282B20E003014F8 /* MDTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59111A9E22851DBB005E724C /* MDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTableViewCell.h; sourceTree = "<group>"; };
+		59111A9F22851DBB005E724C /* MDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDModel.m; sourceTree = "<group>"; };
+		59111AA022851DBB005E724C /* MDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDModel.h; sourceTree = "<group>"; };
+		59111AA122851DBB005E724C /* MDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTableViewCell.m; sourceTree = "<group>"; };
+		59111AA422851FFD005E724C /* MDSubCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDSubCell.h; sourceTree = "<group>"; };
+		59111AA522851FFD005E724C /* MDSubCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDSubCell.m; sourceTree = "<group>"; };
 		5925C18A2275540400F46D37 /* MSHULib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSHULib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5925C18D2275540400F46D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5925C18E2275540400F46D37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +155,16 @@
 		597E310D227FD4D0003691B8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		597E310E227FD4D0003691B8 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		597E310F227FD4D0003691B8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		597E313522803A12003691B8 /* MDAFNManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAFNManager.h; sourceTree = "<group>"; };
+		597E313622803A12003691B8 /* MDAFNManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAFNManager.m; sourceTree = "<group>"; };
+		597E313922803AA5003691B8 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		597E313A22803AA5003691B8 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		597E313B22803AA5003691B8 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		597F238F2281AAC00016DF0F /* MDAppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAppConfig.h; sourceTree = "<group>"; };
+		59CFA0A922826FE2003014F8 /* MDEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDEncrypt.h; sourceTree = "<group>"; };
+		59CFA0AA22826FE2003014F8 /* MDEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDEncrypt.m; sourceTree = "<group>"; };
+		59CFA0B02282B20E003014F8 /* MDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTextField.m; sourceTree = "<group>"; };
+		59CFA0B12282B20E003014F8 /* MDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTextField.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +178,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59111A9D22851DBB005E724C /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				59111AA022851DBB005E724C /* MDModel.h */,
+				59111A9F22851DBB005E724C /* MDModel.m */,
+				59111A9E22851DBB005E724C /* MDTableViewCell.h */,
+				59111AA122851DBB005E724C /* MDTableViewCell.m */,
+				59111AA422851FFD005E724C /* MDSubCell.h */,
+				59111AA522851FFD005E724C /* MDSubCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		5925C1812275540400F46D37 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				5925C1CF2275943400F46D37 /* PrefixHeader.pch */,
+				597F238F2281AAC00016DF0F /* MDAppConfig.h */,
 				5925C1D0227594EA00F46D37 /* MDGlobalDefine.h */,
 			);
 			path = MacroFile;
@@ -204,6 +241,7 @@
 			children = (
 				597E30BA227FD4D0003691B8 /* ViewController.h */,
 				597E30B4227FD4D0003691B8 /* ViewController.m */,
+				59111A9D22851DBB005E724C /* TableViewCell */,
 				597E30B5227FD4D0003691B8 /* AddressBook */,
 			);
 			path = Business;
@@ -223,6 +261,8 @@
 		597E30BB227FD4D0003691B8 /* MyLib */ = {
 			isa = PBXGroup;
 			children = (
+				59CFA0AF2282B20E003014F8 /* MDTextField */,
+				59CFA0A822826FD1003014F8 /* encrypt */,
 				597E30BC227FD4D0003691B8 /* MDAlertController */,
 				597E30C1227FD4D0003691B8 /* HTTP */,
 				597E30C2227FD4D0003691B8 /* MDScaffoldTableView */,
@@ -244,6 +284,8 @@
 		597E30C1227FD4D0003691B8 /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
+				597E313522803A12003691B8 /* MDAFNManager.h */,
+				597E313622803A12003691B8 /* MDAFNManager.m */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -265,6 +307,7 @@
 		597E30CA227FD4D0003691B8 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				597E313822803AA5003691B8 /* GTMBase64 */,
 				597E30CB227FD4D0003691B8 /* Masonry */,
 				597E30E6227FD4D0003691B8 /* YY+UIControl */,
 				597E30EA227FD4D0003691B8 /* AFNetworking */,
@@ -365,11 +408,39 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		597E313822803AA5003691B8 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				597E313922803AA5003691B8 /* GTMBase64.h */,
+				597E313A22803AA5003691B8 /* GTMDefines.h */,
+				597E313B22803AA5003691B8 /* GTMBase64.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
 		59841EFB2277E4E6004576EA /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = HTTP;
+			sourceTree = "<group>";
+		};
+		59CFA0A822826FD1003014F8 /* encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				59CFA0A922826FE2003014F8 /* MDEncrypt.h */,
+				59CFA0AA22826FE2003014F8 /* MDEncrypt.m */,
+			);
+			path = encrypt;
+			sourceTree = "<group>";
+		};
+		59CFA0AF2282B20E003014F8 /* MDTextField */ = {
+			isa = PBXGroup;
+			children = (
+				59CFA0B12282B20E003014F8 /* MDTextField.h */,
+				59CFA0B02282B20E003014F8 /* MDTextField.m */,
+			);
+			path = MDTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +521,7 @@
 				597E3118227FD4D0003691B8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				597E3110227FD4D0003691B8 /* ViewController.m in Sources */,
 				597E311F227FD4D0003691B8 /* MASConstraint.m in Sources */,
+				597E313722803A12003691B8 /* MDAFNManager.m in Sources */,
 				597E3123227FD4D0003691B8 /* UIControl+YYAdd.m in Sources */,
 				597E3124227FD4D1003691B8 /* AFURLResponseSerialization.m in Sources */,
 				597E3120227FD4D0003691B8 /* MASViewConstraint.m in Sources */,
@@ -462,6 +534,9 @@
 				597E3113227FD4D0003691B8 /* MDAlertController.m in Sources */,
 				597E312D227FD4D1003691B8 /* UIAlertView+AFNetworking.m in Sources */,
 				597E3111227FD4D0003691B8 /* MDAddressBookViewController.m in Sources */,
+				59CFA0B22282B20E003014F8 /* MDTextField.m in Sources */,
+				59111AA222851DBB005E724C /* MDModel.m in Sources */,
+				59111AA322851DBB005E724C /* MDTableViewCell.m in Sources */,
 				597E3125227FD4D1003691B8 /* AFHTTPSessionManager.m in Sources */,
 				597E312C227FD4D1003691B8 /* AFSecurityPolicy.m in Sources */,
 				597E311C227FD4D0003691B8 /* MASLayoutConstraint.m in Sources */,
@@ -469,8 +544,10 @@
 				597E312B227FD4D1003691B8 /* AFNetworkReachabilityManager.m in Sources */,
 				597E3126227FD4D1003691B8 /* AFURLConnectionOperation.m in Sources */,
 				597E3114227FD4D0003691B8 /* MDAlertView.m in Sources */,
+				597E313C22803AA6003691B8 /* GTMBase64.m in Sources */,
 				597E3130227FD4D1003691B8 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				597E312A227FD4D1003691B8 /* AFHTTPRequestOperation.m in Sources */,
+				59111AA622851FFD005E724C /* MDSubCell.m in Sources */,
 				597E3131227FD4D1003691B8 /* UIImageView+AFNetworking.m in Sources */,
 				597E3115227FD4D0003691B8 /* MDScaffoldTableViewController.m in Sources */,
 				597E3128227FD4D1003691B8 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -478,6 +555,7 @@
 				597E311D227FD4D0003691B8 /* NSArray+MASAdditions.m in Sources */,
 				597E312F227FD4D1003691B8 /* UIRefreshControl+AFNetworking.m in Sources */,
 				597E3134227FD4D1003691B8 /* UIWebView+AFNetworking.m in Sources */,
+				59CFA0AB22826FE2003014F8 /* MDEncrypt.m in Sources */,
 				5925C19D2275540600F46D37 /* main.m in Sources */,
 				597E3117227FD4D0003691B8 /* MDScaffoldCellConfig.m in Sources */,
 				5925C18F2275540400F46D37 /* AppDelegate.m in Sources */,

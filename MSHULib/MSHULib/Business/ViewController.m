@@ -12,6 +12,9 @@
 #import "AddressBook/MDAddressBookViewController.h"
 
 #import "AddressBook/MDCommon.h"
+#import "MDTableViewCell.h"
+#import "TableViewCell/MDModel.h"
+#import "TableViewCell/MDSubCell.h"
 
 @interface ViewController ()
 
@@ -49,12 +52,39 @@
     }];
     
     [self addSecion:^(MDScaffoldTableViewSection *tableViewSection, NSInteger sectionIndex) {
-        tableViewSection.sectionTitle = @"O";// 还没有实现
+        tableViewSection.sectionTitle = @"父类Cell";
         [tableViewSection addCell:^(MDScaffoldCellConfig *cellConfig, UITableViewCell *cell, NSIndexPath *indexPath) {
+            //配置样式
             cellConfig.cellStyle = UITableViewCellStyleDefault;
-            cellConfig.cellHeight = 40;
+            cellConfig.cellHeight = 50;
             cellConfig.editenble = YES;
-            cell.textLabel.text = @"其他";
+            cellConfig.tableViewSuperClass = [MDTableViewCell class];
+            // 设置数据
+            MDTableViewCell *thisCell = (MDTableViewCell *)cell;
+            MDModel *model = [[MDModel alloc]init];
+            model.name = @"小昭";
+            model.pleaceHolder = @"输入年龄";
+            thisCell.cellModel = model;
+            
+        } whenSelectedCell:^(NSIndexPath *indexPath) {
+            // cell点击事件
+        }];
+    }];
+    [self addSecion:^(MDScaffoldTableViewSection *tableViewSection, NSInteger sectionIndex) {
+        tableViewSection.sectionTitle = @"子类Cell";
+        [tableViewSection addCell:^(MDScaffoldCellConfig *cellConfig, UITableViewCell *cell, NSIndexPath *indexPath) {
+            //配置样式
+            cellConfig.cellStyle = UITableViewCellStyleDefault;
+            cellConfig.cellHeight = 50;
+            cellConfig.editenble = YES;
+            cellConfig.tableViewSuperClass = [MDSubCell class];
+            // 设置数据
+            MDSubCell *thisCell = (MDSubCell *)cell;
+            MDModel *model = [[MDModel alloc]init];
+            model.name = @"小刁";
+            model.pleaceHolder = @"输入性别";
+            thisCell.cellModel = model;
+            
         } whenSelectedCell:^(NSIndexPath *indexPath) {
             // cell点击事件
         }];
