@@ -83,7 +83,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/meidong163/MDUtils.git", :tag => "v#{s.version}" }
 
-
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -93,6 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Tool/MDUtils/Utils/**/*.{h,m,bundle}"
+
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

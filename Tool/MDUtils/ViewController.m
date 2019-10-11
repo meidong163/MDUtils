@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "MBProgressHUD+Meidong.h"
 #import "Pepole.h"
 #import "Book.h"
 @interface ViewController ()
@@ -50,10 +49,7 @@
     return;
 }
 
-- (void)click
-{
-    [MBProgressHUD showInfoMessage:@"好消息"];
-}
+
 
 
 -(void)didReceiveMemoryWarning

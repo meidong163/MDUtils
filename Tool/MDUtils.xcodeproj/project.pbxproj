@@ -22,7 +22,6 @@
 		569584FC1E6E51720052766D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569584FA1E6E51720052766D /* Main.storyboard */; };
 		569584FE1E6E51720052766D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569584FD1E6E51720052766D /* Assets.xcassets */; };
 		569585011E6E51720052766D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569584FF1E6E51720052766D /* LaunchScreen.storyboard */; };
-		5695854E1E6E992A0052766D /* MBProgressHUD+JDragon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5695854D1E6E992A0052766D /* MBProgressHUD+JDragon.bundle */; };
 		569A9B721E7F6D12007589C3 /* MDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B711E7F6D12007589C3 /* MDWindow.m */; };
 		569A9B751E7F737F007589C3 /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B741E7F737F007589C3 /* MDViewController.m */; };
 		569A9B7F1E7F8A54007589C3 /* MDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B7E1E7F8A54007589C3 /* MDView.m */; };
@@ -34,8 +33,6 @@
 		569A9B911E7FC9B1007589C3 /* MDItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B901E7FC9B1007589C3 /* MDItem.m */; };
 		569A9B941E7FCA8C007589C3 /* MDBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B931E7FCA8C007589C3 /* MDBarItem.m */; };
 		569A9B971E7FE147007589C3 /* MDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B961E7FE147007589C3 /* MDBarButtonItem.m */; };
-		56A5A5C31E6EAC3500F480AC /* MBProgressHUD+Meidong.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */; };
-		56A5A5C81E6EACB800F480AC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5A5C71E6EACB800F480AC /* MBProgressHUD.m */; };
 		59099803235059B6004559CC /* MDScaffoldTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590997FF235059B6004559CC /* MDScaffoldTableViewController.m */; };
 		59099804235059B6004559CC /* MDScaffoldTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 59099800235059B6004559CC /* MDScaffoldTableViewSection.m */; };
 		59099805235059B6004559CC /* MDScaffoldCellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 59099801235059B6004559CC /* MDScaffoldCellConfig.m */; };
@@ -70,7 +67,6 @@
 		569584FD1E6E51720052766D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		569585001E6E51720052766D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		569585021E6E51720052766D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5695854D1E6E992A0052766D /* MBProgressHUD+JDragon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "MBProgressHUD+JDragon.bundle"; sourceTree = "<group>"; };
 		569A9B701E7F6D12007589C3 /* MDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDWindow.h; sourceTree = "<group>"; };
 		569A9B711E7F6D12007589C3 /* MDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDWindow.m; sourceTree = "<group>"; };
 		569A9B731E7F737F007589C3 /* MDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
@@ -96,10 +92,6 @@
 		569A9B931E7FCA8C007589C3 /* MDBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBarItem.m; sourceTree = "<group>"; };
 		569A9B951E7FE147007589C3 /* MDBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDBarButtonItem.h; sourceTree = "<group>"; };
 		569A9B961E7FE147007589C3 /* MDBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDBarButtonItem.m; sourceTree = "<group>"; };
-		56A5A5C11E6EAC3500F480AC /* MBProgressHUD+Meidong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Meidong.h"; sourceTree = "<group>"; };
-		56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Meidong.m"; sourceTree = "<group>"; };
-		56A5A5C61E6EACB800F480AC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		56A5A5C71E6EACB800F480AC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		590997FC235059B6004559CC /* MDStaticCellDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDStaticCellDefine.h; sourceTree = "<group>"; };
 		590997FD235059B6004559CC /* MDScaffoldCellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDScaffoldCellConfig.h; sourceTree = "<group>"; };
 		590997FE235059B6004559CC /* MDScaffoldTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDScaffoldTableViewSection.h; sourceTree = "<group>"; };
@@ -185,9 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				590997FB235059B6004559CC /* MDScaffoldTableView */,
-				5695854D1E6E992A0052766D /* MBProgressHUD+JDragon.bundle */,
-				56A5A5C11E6EAC3500F480AC /* MBProgressHUD+Meidong.h */,
-				56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -235,18 +224,8 @@
 		56A5A5C41E6EACB800F480AC /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				56A5A5C51E6EACB800F480AC /* MBProgressHUD */,
 			);
 			path = lib;
-			sourceTree = "<group>";
-		};
-		56A5A5C51E6EACB800F480AC /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				56A5A5C61E6EACB800F480AC /* MBProgressHUD.h */,
-				56A5A5C71E6EACB800F480AC /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		590997FB235059B6004559CC /* MDScaffoldTableView */ = {
@@ -294,8 +273,8 @@
 				TargetAttributes = {
 					569584ED1E6E51720052766D = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 2Q433KSXPF;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 83YX2A7287;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -324,7 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				569585011E6E51720052766D /* LaunchScreen.storyboard in Resources */,
-				5695854E1E6E992A0052766D /* MBProgressHUD+JDragon.bundle in Resources */,
 				569584FE1E6E51720052766D /* Assets.xcassets in Resources */,
 				569584FC1E6E51720052766D /* Main.storyboard in Resources */,
 				568350541E7BE37200016549 /* help.txt in Resources */,
@@ -341,9 +319,7 @@
 				564BEE2D1E811508003D6498 /* MDTabBarButton.m in Sources */,
 				568350521E7B6A3600016549 /* MDImage.m in Sources */,
 				569584F91E6E51720052766D /* ViewController.m in Sources */,
-				56A5A5C31E6EAC3500F480AC /* MBProgressHUD+Meidong.m in Sources */,
 				569A9B911E7FC9B1007589C3 /* MDItem.m in Sources */,
-				56A5A5C81E6EACB800F480AC /* MBProgressHUD.m in Sources */,
 				59099804235059B6004559CC /* MDScaffoldTableViewSection.m in Sources */,
 				569584F61E6E51720052766D /* AppDelegate.m in Sources */,
 				564BEE301E812145003D6498 /* MDCustomBadge.m in Sources */,
@@ -476,16 +452,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 2Q433KSXPF;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83YX2A7287;
 				GCC_PREFIX_HEADER = MDUtils/PrefixHeader.pch;
 				INFOPLIST_FILE = MDUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infomacro.iphone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solian.match;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5c2f256e-2379-4722-bafb-d6090c2ddaef";
-				PROVISIONING_PROFILE_SPECIFIER = "ios-uat-1204";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -493,16 +470,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 2Q433KSXPF;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83YX2A7287;
 				GCC_PREFIX_HEADER = MDUtils/PrefixHeader.pch;
 				INFOPLIST_FILE = MDUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.infomacro.iphone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.solian.match;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5c2f256e-2379-4722-bafb-d6090c2ddaef";
-				PROVISIONING_PROFILE_SPECIFIER = "ios-uat-1204";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
