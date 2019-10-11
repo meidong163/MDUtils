@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MDPodSpec"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "自己一个小小的工具库，希望后面能越来越好"
 
   # This description is used to generate tags and improve search results.
