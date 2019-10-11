@@ -33,14 +33,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    NSLog(@"secionContainer count = %lu",(unsigned long)self.sectionContainer.count);
     return self.sectionContainer.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     MDScaffoldTableViewSection *sections = [self.sectionContainer objectAtIndex:section];
-    NSLog(@"sections.cellContainer count = %lu",(unsigned long)sections.cellContainer.count);
     return sections.cellContainer.count;
 }
 

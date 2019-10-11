@@ -16,8 +16,10 @@
 #import "TableViewCell/MDModel.h"
 #import "TableViewCell/MDSubCell.h"
 
-@interface ViewController ()
-
+// ios获取定位
+#import <CoreLocation/CoreLocation.h>
+@interface ViewController ()<CLLocationManagerDelegate>
+@property(nonatomic,strong)CLLocationManager *lcManager;
 @end
 
 @implementation ViewController
@@ -70,7 +72,9 @@
             // cell点击事件
         }];
     }];
+    
     [self addSecion:^(MDScaffoldTableViewSection *tableViewSection, NSInteger sectionIndex) {
+        
         tableViewSection.sectionTitle = @"子类Cell";
         [tableViewSection addCell:^(MDScaffoldCellConfig *cellConfig, UITableViewCell *cell, NSIndexPath *indexPath) {
             //配置样式
@@ -87,6 +91,9 @@
             
         } whenSelectedCell:^(NSIndexPath *indexPath) {
             // cell点击事件
+            @strongify(self);
+            NSDebugLog(@"点击了小调");
+            [self getIphoneLocation];
         }];
     }];
     
@@ -111,6 +118,39 @@
     for (int i = 0; i<20; i++) {
         [[MDCommon new]saveYdCallAnswerPhoneToAdrBook];
     }
+}
+
+
+//获取地图定位
+-(void)getIphoneLocation
+{
+    
+    self.lcManager = [[CLLocationManager alloc] init];
+    self.lcManager.delegate = self; // 设置代理
+    self.lcManager.distanceFilter = 1000;
+    self.lcManager.desiredAccuracy = kCLLocationAccuracyKilometer;
+    
+    if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
+        [self.lcManager requestAlwaysAuthorization];
+        [self.lcManager requestWhenInUseAuthorization];
+        [self.lcManager startUpdatingLocation];
+    }
+    
+}
+
+/** 获取到新的位置信息时调用*/
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+{
+    CLLocation *location = [locations lastObject];
+    NSString *code = [NSString stringWithFormat:@"%f/%f",location.coordinate.longitude,location.coordinate.latitude];
+    NSDebugLog(@"经纬度%@",code);
+    [self.lcManager stopUpdatingLocation];
+}
+
+/** 不能获取位置信息时调用*/
+-(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
+{
+    [self.lcManager stopUpdatingLocation];
 }
 
 

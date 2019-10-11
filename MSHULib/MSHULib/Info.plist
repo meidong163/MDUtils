@@ -26,6 +26,8 @@
 	<string>Main</string>
 	<key>NSContactsUsageDescription</key>
 	<string>是否允许此App访问你的通讯录？</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>是否允许访问app位置</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
