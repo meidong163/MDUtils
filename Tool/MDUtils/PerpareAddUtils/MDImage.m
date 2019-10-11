@@ -22,7 +22,7 @@
     NSString *resourcePath = [[NSBundle mainBundle]resourcePath];
     return [resourcePath stringByAppendingPathComponent:relativePath];
 }
-// mattt问题： 从自定义的包中获取文件，［[UIImage imageNamed:@"MBHUD_Error"];和这种方式获取文件有什么区别呢？ios是怎么对文件进行管理的？
+
 + (UIImage *)loadImageFromRes:(NSString *)URL
 {
     NSString *path = [MDImage pathForRes:URL];

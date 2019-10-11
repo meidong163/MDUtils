@@ -20,13 +20,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    [self setButton:@"叫啊叫啊" sel:@selector(click) frame:CGRectMake(100, 100, 100, 30)];
-//    [self checknil:@"haha"];
-
-    NSLog(@"%@",self.flag ? @"Yes":@"No");
-    MDLog(@"%@",@"哈哈哈");
-
+    self.title = @"demo";
+    [self addSecion:^(MDScaffoldTableViewSection *tableViewSection, NSInteger sectionIndex) {
+        tableViewSection.sectionTitle = @"test";
+        [tableViewSection addCell:^(MDScaffoldCellConfig *cellConfig, UITableViewCell *cell, NSIndexPath *indexPath) {
+            cell.textLabel.text = @"MDScaffoldTableViewController 使用";
+        } whenSelectedCell:^(NSIndexPath *indexPath) {
+            NSLog(@"\n 1. pod 安装 或者 拖MDScaffoldTableView到工程 \n 2. 继承MDScaffoldTableViewController \n 3.使用");
+        }];
+    }];
 
 }
 

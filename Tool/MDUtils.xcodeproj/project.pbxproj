@@ -36,6 +36,9 @@
 		569A9B971E7FE147007589C3 /* MDBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A9B961E7FE147007589C3 /* MDBarButtonItem.m */; };
 		56A5A5C31E6EAC3500F480AC /* MBProgressHUD+Meidong.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */; };
 		56A5A5C81E6EACB800F480AC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A5A5C71E6EACB800F480AC /* MBProgressHUD.m */; };
+		59099803235059B6004559CC /* MDScaffoldTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590997FF235059B6004559CC /* MDScaffoldTableViewController.m */; };
+		59099804235059B6004559CC /* MDScaffoldTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 59099800235059B6004559CC /* MDScaffoldTableViewSection.m */; };
+		59099805235059B6004559CC /* MDScaffoldCellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 59099801235059B6004559CC /* MDScaffoldCellConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +100,13 @@
 		56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Meidong.m"; sourceTree = "<group>"; };
 		56A5A5C61E6EACB800F480AC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		56A5A5C71E6EACB800F480AC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		590997FC235059B6004559CC /* MDStaticCellDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDStaticCellDefine.h; sourceTree = "<group>"; };
+		590997FD235059B6004559CC /* MDScaffoldCellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDScaffoldCellConfig.h; sourceTree = "<group>"; };
+		590997FE235059B6004559CC /* MDScaffoldTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDScaffoldTableViewSection.h; sourceTree = "<group>"; };
+		590997FF235059B6004559CC /* MDScaffoldTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDScaffoldTableViewController.m; sourceTree = "<group>"; };
+		59099800235059B6004559CC /* MDScaffoldTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDScaffoldTableViewSection.m; sourceTree = "<group>"; };
+		59099801235059B6004559CC /* MDScaffoldCellConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDScaffoldCellConfig.m; sourceTree = "<group>"; };
+		59099802235059B6004559CC /* MDScaffoldTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDScaffoldTableViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +184,7 @@
 		569585491E6E99120052766D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				590997FB235059B6004559CC /* MDScaffoldTableView */,
 				5695854D1E6E992A0052766D /* MBProgressHUD+JDragon.bundle */,
 				56A5A5C11E6EAC3500F480AC /* MBProgressHUD+Meidong.h */,
 				56A5A5C21E6EAC3500F480AC /* MBProgressHUD+Meidong.m */,
@@ -238,6 +249,20 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		590997FB235059B6004559CC /* MDScaffoldTableView */ = {
+			isa = PBXGroup;
+			children = (
+				590997FC235059B6004559CC /* MDStaticCellDefine.h */,
+				590997FD235059B6004559CC /* MDScaffoldCellConfig.h */,
+				590997FE235059B6004559CC /* MDScaffoldTableViewSection.h */,
+				590997FF235059B6004559CC /* MDScaffoldTableViewController.m */,
+				59099800235059B6004559CC /* MDScaffoldTableViewSection.m */,
+				59099801235059B6004559CC /* MDScaffoldCellConfig.m */,
+				59099802235059B6004559CC /* MDScaffoldTableViewController.h */,
+			);
+			path = MDScaffoldTableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -279,6 +304,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -318,12 +344,14 @@
 				56A5A5C31E6EAC3500F480AC /* MBProgressHUD+Meidong.m in Sources */,
 				569A9B911E7FC9B1007589C3 /* MDItem.m in Sources */,
 				56A5A5C81E6EACB800F480AC /* MBProgressHUD.m in Sources */,
+				59099804235059B6004559CC /* MDScaffoldTableViewSection.m in Sources */,
 				569584F61E6E51720052766D /* AppDelegate.m in Sources */,
 				564BEE301E812145003D6498 /* MDCustomBadge.m in Sources */,
 				564BEE231E80E3B1003D6498 /* MDTabBar.m in Sources */,
 				569A9B851E7F8E0F007589C3 /* MDObject.m in Sources */,
 				569A9B881E7FB81A007589C3 /* Pepole.m in Sources */,
 				569584F31E6E51720052766D /* main.m in Sources */,
+				59099805235059B6004559CC /* MDScaffoldCellConfig.m in Sources */,
 				569A9B721E7F6D12007589C3 /* MDWindow.m in Sources */,
 				569A9B941E7FCA8C007589C3 /* MDBarItem.m in Sources */,
 				569A9B821E7F8DE1007589C3 /* MDLog.m in Sources */,
@@ -335,6 +363,7 @@
 				564BEE3B1E813562003D6498 /* UIView+Addition.m in Sources */,
 				569A9B971E7FE147007589C3 /* MDBarButtonItem.m in Sources */,
 				569A9B8E1E7FBDC3007589C3 /* NSObject+Property.m in Sources */,
+				59099803235059B6004559CC /* MDScaffoldTableViewController.m in Sources */,
 				569A9B7F1E7F8A54007589C3 /* MDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

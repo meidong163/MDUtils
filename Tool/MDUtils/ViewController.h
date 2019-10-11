@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "Utils/MDScaffoldTableView/MDScaffoldTableViewController.h"
+
+@interface ViewController : MDScaffoldTableViewController
 
 
 @end
