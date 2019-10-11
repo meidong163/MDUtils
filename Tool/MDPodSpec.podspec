@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MDPodSpec"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "自己一个小小的工具库，希望后面能越来越好"
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = "MD的工具库，目前只有一个对MBProgressHUD的封装，后面会把在实际项目中有用的库放进来，这样以后开发项目，上来先把这个库弄进来，很方便，哈哈"                  
 
   #   s.homepage     = "https://github.com/meidong163/MDUtils.git" 下一个版本需要加入的，该懂的东西
-  s.homepage     = "https://github.com/meidong163/MDUtils/tree/master/MDUtils/MDUtils/Utils"
+  s.homepage     = "https://github.com/meidong163/MDUtils/tree/master/Tool/MDUtils/Utils"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MDUtils", "MDUtils/MDUtils/Utils/**/*.{h,m,bundle}"
+  s.source_files  = "Tool", "MDUtils/Utils/**/*.{h,m,bundle}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-    s.resource = "MDUtils/MDUtils/Utils/MBProgressHUD+JDragon.bundle"
+    s.resource = "Tool/MDUtils/Utils/MBProgressHUD+JDragon.bundle"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
     
